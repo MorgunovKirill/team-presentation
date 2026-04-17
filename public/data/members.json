@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "Алексей Иванов",
+    "role": "Frontend Developer",
+    "photo": "https://i.pravatar.cc/150?img=1",
+    "skills": ["Vue 3", "TypeScript", "Vite", "CSS Modules"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "telegram": "@alexey"
+    },
+    "email": "alexey@example.com"
+  },
+  {
+    "id": "2",
+    "name": "Мария Петрова",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=2",
+    "skills": ["Node.js", "Go", "PostgreSQL", "Docker"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "maria@example.com"
+  },
+  {
+    "id": "3",
+    "name": "Дмитрий Сидоров",
+    "role": "UI/UX Designer",
+    "photo": "https://i.pravatar.cc/150?img=3",
+    "skills": ["Figma", "Sketch", "Prototyping"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@dmitry"
+    },
+    "email": "dmitry@example.com"
+  },
+  {
+    "id": "4",
+    "name": "Анна Козлова",
+    "role": "DevOps Engineer",
+    "photo": "https://i.pravatar.cc/150?img=4",
+    "skills": ["Docker", "Kubernetes", "CI/CD", "AWS"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@anna"
+    },
+    "email": "anna@example.com"
+  }
+]
