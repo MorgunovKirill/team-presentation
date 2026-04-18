@@ -17,6 +17,9 @@ function goToProfile(): void {
 
 <template>
   <div :class="$style.card" @click="goToProfile">
+    <div v-if="$slots.actions" :class="$style.actions">
+      <slot name="actions" :member="member" />
+    </div>
     <img :src="member.photo" :alt="member.name" :class="$style.avatar" />
     <h3 :class="$style.name">{{ member.name }}</h3>
     <p :class="$style.role">{{ member.role }}</p>
@@ -28,6 +31,7 @@ function goToProfile(): void {
 
 <style module>
 .card {
+  position: relative;
   background: var(--color-surface);
   border-radius: var(--radius-m);
   box-shadow: var(--shadow-s);
@@ -39,6 +43,12 @@ function goToProfile(): void {
 .card:hover {
   box-shadow: var(--shadow-m);
   transform: translateY(-2px);
+}
+.actions {
+  position: absolute;
+  top: var(--space-s);
+  right: var(--space-s);
+  z-index: 2;
 }
 .avatar {
   width: 72px;

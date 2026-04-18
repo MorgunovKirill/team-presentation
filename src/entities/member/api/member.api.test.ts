@@ -6,7 +6,7 @@ import { fetchMembers, fetchMemberById } from './member.api'
 describe('fetchMembers', () => {
   it('returns list of members', async () => {
     const members = await fetchMembers()
-    expect(members).toHaveLength(2)
+    expect(members).toHaveLength(30)
     expect(members[0]).toMatchObject({ id: '1', name: 'Алексей Иванов' })
   })
 })

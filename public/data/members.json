@@ -47,5 +47,316 @@
       "telegram": "@anna"
     },
     "email": "anna@example.com"
+  },
+  {
+    "id": "5",
+    "name": "Иван Смирнов",
+    "role": "Frontend Developer",
+    "photo": "https://i.pravatar.cc/150?img=5",
+    "skills": ["React", "TypeScript", "Redux"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@ivan"
+    },
+    "email": "ivan@example.com"
+  },
+  {
+    "id": "6",
+    "name": "Екатерина Попова",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=6",
+    "skills": ["Python", "PostgreSQL", "Django"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "ekaterina@example.com"
+  },
+  {
+    "id": "7",
+    "name": "Сергей Волков",
+    "role": "Mobile Developer",
+    "photo": "https://i.pravatar.cc/150?img=7",
+    "skills": ["Swift", "iOS", "Objective-C"],
+    "social": {
+      "github": "https://github.com"
+    },
+    "email": "sergey@example.com"
+  },
+  {
+    "id": "8",
+    "name": "Ольга Новикова",
+    "role": "QA Engineer",
+    "photo": "https://i.pravatar.cc/150?img=8",
+    "skills": ["Cypress", "Playwright", "TypeScript"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@olga"
+    },
+    "email": "olga@example.com"
+  },
+  {
+    "id": "9",
+    "name": "Николай Фёдоров",
+    "role": "DevOps Engineer",
+    "photo": "https://i.pravatar.cc/150?img=9",
+    "skills": ["Kubernetes", "AWS", "Terraform"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "nikolay@example.com"
+  },
+  {
+    "id": "10",
+    "name": "Татьяна Морозова",
+    "role": "UI/UX Designer",
+    "photo": "https://i.pravatar.cc/150?img=10",
+    "skills": ["Figma", "Adobe XD", "Prototyping"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@tatyana"
+    },
+    "email": "tatyana@example.com"
+  },
+  {
+    "id": "11",
+    "name": "Павел Соколов",
+    "role": "Fullstack Developer",
+    "photo": "https://i.pravatar.cc/150?img=11",
+    "skills": ["Vue 3", "Node.js", "PostgreSQL"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "telegram": "@pavel"
+    },
+    "email": "pavel@example.com"
+  },
+  {
+    "id": "12",
+    "name": "Елена Лебедева",
+    "role": "Data Scientist",
+    "photo": "https://i.pravatar.cc/150?img=12",
+    "skills": ["Python", "TensorFlow", "PostgreSQL"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "elena@example.com"
+  },
+  {
+    "id": "13",
+    "name": "Артём Павлов",
+    "role": "Frontend Developer",
+    "photo": "https://i.pravatar.cc/150?img=13",
+    "skills": ["React", "TypeScript", "Next.js"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@artem"
+    },
+    "email": "artem@example.com"
+  },
+  {
+    "id": "14",
+    "name": "Юлия Семёнова",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=14",
+    "skills": ["Go", "Docker", "Kubernetes"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "yulia@example.com"
+  },
+  {
+    "id": "15",
+    "name": "Михаил Голубев",
+    "role": "Mobile Developer",
+    "photo": "https://i.pravatar.cc/150?img=15",
+    "skills": ["Kotlin", "Android", "Swift"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@mikhail"
+    },
+    "email": "mikhail@example.com"
+  },
+  {
+    "id": "16",
+    "name": "Светлана Егорова",
+    "role": "QA Engineer",
+    "photo": "https://i.pravatar.cc/150?img=16",
+    "skills": ["Cypress", "Selenium", "TypeScript"],
+    "social": {
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "svetlana@example.com"
+  },
+  {
+    "id": "17",
+    "name": "Денис Фролов",
+    "role": "Frontend Developer",
+    "photo": "https://i.pravatar.cc/150?img=17",
+    "skills": ["Vue 3", "TypeScript", "Vitest"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@denis"
+    },
+    "email": "denis@example.com"
+  },
+  {
+    "id": "18",
+    "name": "Наталья Жукова",
+    "role": "UI/UX Designer",
+    "photo": "https://i.pravatar.cc/150?img=18",
+    "skills": ["Figma", "Prototyping", "User Research"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@natalya"
+    },
+    "email": "natalya@example.com"
+  },
+  {
+    "id": "19",
+    "name": "Константин Макаров",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=19",
+    "skills": ["Python", "FastAPI", "Docker"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "konstantin@example.com"
+  },
+  {
+    "id": "20",
+    "name": "Вера Тихонова",
+    "role": "Fullstack Developer",
+    "photo": "https://i.pravatar.cc/150?img=20",
+    "skills": ["React", "Node.js", "TypeScript"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@vera"
+    },
+    "email": "vera@example.com"
+  },
+  {
+    "id": "21",
+    "name": "Артур Зайцев",
+    "role": "DevOps Engineer",
+    "photo": "https://i.pravatar.cc/150?img=21",
+    "skills": ["Docker", "CI/CD", "Ansible"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "artur@example.com"
+  },
+  {
+    "id": "22",
+    "name": "Ирина Белова",
+    "role": "Mobile Developer",
+    "photo": "https://i.pravatar.cc/150?img=22",
+    "skills": ["Swift", "SwiftUI", "Kotlin"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@irina"
+    },
+    "email": "irina@example.com"
+  },
+  {
+    "id": "23",
+    "name": "Максим Орлов",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=23",
+    "skills": ["Go", "PostgreSQL", "gRPC"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "maxim@example.com"
+  },
+  {
+    "id": "24",
+    "name": "Алина Крылова",
+    "role": "QA Engineer",
+    "photo": "https://i.pravatar.cc/150?img=24",
+    "skills": ["Playwright", "TypeScript", "Cypress"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@alina"
+    },
+    "email": "alina@example.com"
+  },
+  {
+    "id": "25",
+    "name": "Владимир Киселёв",
+    "role": "Data Scientist",
+    "photo": "https://i.pravatar.cc/150?img=25",
+    "skills": ["Python", "PyTorch", "Pandas"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "vladimir@example.com"
+  },
+  {
+    "id": "26",
+    "name": "Ксения Гусева",
+    "role": "Frontend Developer",
+    "photo": "https://i.pravatar.cc/150?img=26",
+    "skills": ["React", "TypeScript", "Tailwind"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@ksenia"
+    },
+    "email": "ksenia@example.com"
+  },
+  {
+    "id": "27",
+    "name": "Роман Дмитриев",
+    "role": "Fullstack Developer",
+    "photo": "https://i.pravatar.cc/150?img=27",
+    "skills": ["Vue 3", "Python", "PostgreSQL"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "roman@example.com"
+  },
+  {
+    "id": "28",
+    "name": "Алёна Соловьёва",
+    "role": "UI/UX Designer",
+    "photo": "https://i.pravatar.cc/150?img=28",
+    "skills": ["Figma", "Sketch", "Framer"],
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "telegram": "@alyona"
+    },
+    "email": "alyona@example.com"
+  },
+  {
+    "id": "29",
+    "name": "Евгений Рыбаков",
+    "role": "Mobile Developer",
+    "photo": "https://i.pravatar.cc/150?img=29",
+    "skills": ["Kotlin", "Flutter", "Dart"],
+    "social": {
+      "github": "https://github.com",
+      "telegram": "@evgeny"
+    },
+    "email": "evgeny@example.com"
+  },
+  {
+    "id": "30",
+    "name": "Антон Беляев",
+    "role": "Backend Developer",
+    "photo": "https://i.pravatar.cc/150?img=30",
+    "skills": ["Node.js", "TypeScript", "MongoDB"],
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "email": "anton@example.com"
   }
 ]

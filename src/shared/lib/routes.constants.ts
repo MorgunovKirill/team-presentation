@@ -3,4 +3,5 @@ export const APP_ROUTES = {
   TEAM: '/team',
   MEMBER: '/team/:id',
   MEMBER_BY_ID: (id: string) => `/team/${id}`,
+  FAVORITES: '/favorites',
 } as const

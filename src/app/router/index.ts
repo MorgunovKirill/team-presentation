@@ -17,6 +17,10 @@ export const router = createRouter({
       component: () => import('@/pages/member/ui/member-page.vue'),
     },
     {
+      path: APP_ROUTES.FAVORITES,
+      component: () => import('@/pages/favorites/ui/favorites-page.vue'),
+    },
+    {
       path: '/:pathMatch(.*)*',
       redirect: APP_ROUTES.HOME,
     },
