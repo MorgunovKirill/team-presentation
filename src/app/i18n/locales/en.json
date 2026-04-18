@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "team": "Team"
+    "team": "Team",
+    "favorites": "Favorites"
   },
   "home": {
     "title": "Hi, we are a team",
@@ -9,7 +10,18 @@
     "cta": "Meet the team"
   },
   "team": {
-    "title": "Our Team"
+    "title": "Our Team",
+    "empty": "No members match the selected filter",
+    "filters": {
+      "title": "Filter by skills",
+      "reset": "Reset"
+    }
+  },
+  "favorites": {
+    "title": "Favorites",
+    "empty": "You haven't added anyone to favorites yet",
+    "add": "Add to favorites",
+    "remove": "Remove from favorites"
   },
   "member": {
     "skills": "Skills"

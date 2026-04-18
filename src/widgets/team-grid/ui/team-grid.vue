@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Member } from '@/entities/member'
 import MemberCard from '@/entities/member/ui/member-card/member-card.vue'
+import { FavoriteToggle } from '@/features/favorites'
 
 interface Props {
   members: Member[]
@@ -10,7 +11,11 @@ defineProps<Props>()
 
 <template>
   <div :class="$style.grid">
-    <MemberCard v-for="member in members" :key="member.id" :member="member" />
+    <MemberCard v-for="member in members" :key="member.id" :member="member">
+      <template #actions="{ member: m }">
+        <FavoriteToggle :member-id="m.id" />
+      </template>
+    </MemberCard>
   </div>
 </template>
 
